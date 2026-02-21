@@ -44,6 +44,7 @@ header a {
 .hero-img img {
   width: 280px;
   border-radius: 50%;
+  margin-top:30px;
 }
  .hero .para{
   margin-bottom: 20px;
@@ -164,4 +165,5 @@ footer {
     width: 100%;
     padding: 0 10px;
   }
+
 }
