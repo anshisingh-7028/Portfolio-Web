@@ -77,7 +77,7 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "Personal portfolio website with responsive design",
-    githubLink: "https://github.com/yourusername/portfolio"
+    githubLink: "https://github.com/anshisingh-7028/Portfolio-Web"
   }
 ];
 
@@ -96,4 +96,5 @@ projects.forEach(project => {
   `;
 
   projectGrid.appendChild(card);
+
 });
