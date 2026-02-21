@@ -67,16 +67,19 @@ const projects = [
   {
     title: "Foodies Website",
     description: "Food ordering website using HTML, CSS & JavaScript",
+    liveLink: "https://yourusername.github.io/portfolio/",
     githubLink: "https://github.com/anshisingh-7028/Flavour-Lab-project"
   },
   {
     title: "Terranova A Green Legacy",
     description: "Eco-friendly website built with pure frontend",
+    liveLink: "https://yourusername.github.io/portfolio/",
     githubLink: "https://github.com/anshisingh-7028/Terranova-Project"
   },
   {
     title: "Portfolio Website",
     description: "Personal portfolio website with responsive design",
+    liveLink: "https://yourusername.github.io/portfolio/",
     githubLink: "https://github.com/anshisingh-7028/Portfolio-Web"
   }
 ];
@@ -91,10 +94,12 @@ projects.forEach(project => {
     <h3>${project.title}</h3>
     <p>${project.description}</p>
     <div class="project-btns">
-      <a href="${project.githubLink}" target="_blank">GitHub</a>
+      <a href="${project.liveLink}" target="_blank">liveLink</a>
+       <a href="${project.githubLink}" target="_blank">GitHub</a>
     </div>
   `;
 
   projectGrid.appendChild(card);
 
 });
+
